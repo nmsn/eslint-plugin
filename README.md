@@ -1,6 +1,6 @@
-# eslint-plugin-eslint-plugin
+# eslint-plugin-nmsn-tools
 
-eslint-plugin
+eslint tools
 
 ## Installation
 
@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-eslint-plugin`:
+Next, install `eslint-plugin-nmsn-tools`:
 
 ```sh
-npm install eslint-plugin-eslint-plugin --save-dev
+npm install eslint-plugin-nmsn-tools --save-dev
 ```
 
 ## Usage
 
-Add `eslint-plugin` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `nmsn-tools` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "eslint-plugin"
+        "nmsn-tools"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "eslint-plugin/rule-name": 2
+        "nmsn-tools/rule-name": 2
     }
 }
 ```
