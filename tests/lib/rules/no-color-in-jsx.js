@@ -15,7 +15,7 @@ ruleTester.run("no-color-in-jsx", rule, {
       code: "<div style={{ color: 'red' }}>123</div>",
       errors: [
         {
-          message: "参数最多不能超过3个",
+          message: "Don't use color string 'red' in jsx",
         },
       ],
     },
