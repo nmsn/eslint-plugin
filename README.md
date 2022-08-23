@@ -43,4 +43,12 @@ Then configure the rules you want to use under the rules section.
 
 * Fill in provided rules here
 
+## TODO
+
+- [ ] 完成 no-color 其他场景的 rule
+  - [ ] 颜色为对象属性
+  - [ ] 颜色为函数返回结果
+  - [ ] 三元表达式
+  - [ ] 字符串模版
+
 
